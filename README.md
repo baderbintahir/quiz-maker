@@ -1,1 +1,1 @@
-# quize-maker
+# quiz-maker
