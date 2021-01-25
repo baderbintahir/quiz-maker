@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+
+/* Section 1 */
+.questions-input, .answers-input, .grading-section{
+    margin: 2%;
+    text-align: center;
+}
+
+input{
+    margin: 1%;
+    font-size: 1em;
+    padding: 5px;
+}
+
+#done, #submit{
+    font-size: 18px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    width: 10%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#done:hover, #submit:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+}
+
+.s-q, .show, .result{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.s-q{
+    text-decoration: underline;
+}
+
+.answers-input{
+    display: none;
+}
+
+.grading-section{
+    display: none;
+}
